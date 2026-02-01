@@ -1,0 +1,30 @@
+=== Quantum Coefficient Optimization Report ===
+Scenario: default
+Date: 2025-03-25 13:50:41
+Backend: Local Simulator
+
+--- Urban Coefficients ---
+U1: 0.074368
+U2: 0.082330
+U3: 0.146575
+U4: 0.114964
+U5: 0.227849
+U6: 0.201101
+U7: 0.084299
+U8: 0.068514
+
+--- Civic Coefficients ---
+C1: 0.329829
+C2: 0.670171
+
+--- Validation Metrics ---
+mse: 0.003523318868980019
+r2: nan
+correlation: nan
+n_samples: 1
+
+--- Optimization Summary ---
+Total iterations: 49
+Final loss: 0.024096
+Initial loss: 0.024094
+Improvement: -0.01%

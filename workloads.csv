@@ -1,0 +1,11 @@
+ID,Status,Reason,Created,Completed,Usage (seconds),Mode,Compute resource,Instance,Name,Tags
+czhz6qjfcch0008awf9g,Completed,Session marked as not accepting new jobs and all jobs already in a terminal state.,2025-03-26T12:30:22.897Z,2025-03-26T12:33:25.495Z,0,Session,ibm_brisbane,ibm-q/open/main,,
+czhz5a5hrmy00084cvx0,Completed,Session marked as not accepting new jobs and all jobs already in a terminal state.,2025-03-26T12:27:20.037Z,2025-03-26T12:30:21.636Z,0,Session,ibm_brisbane,ibm-q/open/main,,
+czhz3xqh79s0008wz5b0,Completed,Session marked as not accepting new jobs and all jobs already in a terminal state.,2025-03-26T12:24:22.452Z,2025-03-26T12:27:18.974Z,0,Session,ibm_brisbane,ibm-q/open/main,,
+czhz2ma7m0r0008w9p2g,Completed,Session marked as not accepting new jobs and all jobs already in a terminal state.,2025-03-26T12:21:37.638Z,2025-03-26T12:24:21.845Z,0,Session,ibm_brisbane,ibm-q/open/main,,
+czhz19n7m0r0008w9nm0,Completed,Session marked as not accepting new jobs and all jobs already in a terminal state.,2025-03-26T12:18:46.201Z,2025-03-26T12:21:36.455Z,0,Session,ibm_brisbane,ibm-q/open/main,,
+czhya38aejkg008cn7dg,Completed,,2025-03-26T11:29:17.219Z,2025-03-26T11:39:23.573Z,6,Session,ibm_brisbane,ibm-q/open/main,,
+czhy1fnh79s0008wysc0,Completed,,2025-03-26T11:10:54.132Z,2025-03-26T11:23:50.498Z,5,Session,ibm_brisbane,ibm-q/open/main,,
+czhxqyz7m0r0008w97bg,Completed,,2025-03-26T10:50:35.714Z,2025-03-26T11:00:40.643Z,3,Session,ibm_brisbane,ibm-q/open/main,,
+czhwv647m0r0008w8zbg,Completed,Session marked as not accepting new jobs and all jobs already in a terminal state.,2025-03-26T09:49:12.016Z,2025-03-26T09:50:30.896Z,0,Session,ibm_brisbane,ibm-q/open/main,,
+czhwt38aejkg008cms9g,Completed,Session marked as not accepting new jobs and all jobs already in a terminal state.,2025-03-26T09:46:53.924Z,2025-03-26T09:49:11.375Z,0,Session,ibm_brisbane,ibm-q/open/main,,

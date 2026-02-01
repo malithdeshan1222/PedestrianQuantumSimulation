@@ -1,0 +1,62 @@
+# Quantum Urban Planning Model Configuration
+
+# Model settings
+model:
+  # Coefficients for urban features (default)
+  urbs_coeffs: [0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125]
+  
+  # Coefficients for social/pedestrian features (default)
+  civitas_coeffs: [0.5, 0.5]
+  
+  # Whether to learn coefficients from observed data
+  learn_coeffs_from_data: true
+  
+  # Whether to use quantum computing for coefficient optimization
+  use_quantum_coeffs: true
+
+# Quantum computing settings
+quantum:
+  # Whether to use quantum computing for solving the urban potential field
+  use_quantum: true
+  
+  # Whether to use a real quantum device (if false, uses simulator)
+  use_real_device: true
+  
+  # IBM Quantum API token (can be overridden via command line or environment variable)
+  api_token: d99f99454585bbc07323cd68abff5f33ee5a7570be09b04d9f84f28a3c79e2249f24d8d09ade0c928546936cd4ee910721cfd51e5cdbffc8d0c649a656376c0d
+  
+  # Optimization level for the quantum circuit
+  optimization_level: 3
+
+# Data paths
+data:
+  # Path to input data files
+  data_path: "data"
+  
+  # Path to save results
+  result_path: "results"
+  
+  # Whether to use observed data for validation and learning
+  use_observed_data: true
+
+# Time period configurations
+times_of_day:
+  morning:
+    sun_altitude: 30.0
+    sun_azimuth: 90.0
+    temperature_factor: 0.3
+  
+  afternoon:
+    sun_altitude: 60.0
+    sun_azimuth: 180.0
+    temperature_factor: 0.8
+  
+  evening:
+    sun_altitude: 20.0
+    sun_azimuth: 270.0
+    temperature_factor: 0.5
+  
+  night:
+    sun_altitude: 0.0
+    sun_azimuth: 0.0
+    temperature_factor: 0.2

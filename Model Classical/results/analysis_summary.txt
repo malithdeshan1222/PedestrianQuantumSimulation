@@ -1,0 +1,29 @@
+Urban Potential Field Analysis Summary
+=====================================
+
+Grid Size: (32, 32)
+
+Potential Field Statistics:
+  Min: 0.0000
+  Max: 0.7193
+  Mean: 0.0924
+  Std Dev: 0.1192
+
+Probability Distribution Statistics:
+  Min: 0.000001
+  Max: 0.001593
+  Mean: 0.000977
+  Std Dev: 0.000623
+
+Validation Metrics:
+  RMSE: 0.101671
+  Pearson's r: -0.315241
+  p-value: 4.636987e-25
+
+Files Generated:
+  - ./results\potential_field_map.png
+  - ./results\v_urbs_map.png
+  - ./results\v_civitas_map.png
+  - ./results\probability_map.png
+  - ./results\ground_truth_map.png
+  - ./results\difference_map.png
